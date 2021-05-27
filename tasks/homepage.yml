@@ -1,7 +1,7 @@
 ---
 - name: Setting up homepage.
   template:
-    src: index.j2
+    src: "{{homepage}}"
     dest: /var/www/html/index.html
   notify: restart-httpd  
 

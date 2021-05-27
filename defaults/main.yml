@@ -1,2 +1,3 @@
 ---
 # defaults file for myweb
+homepage: index.j2
