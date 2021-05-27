@@ -1,0 +1,7 @@
+---
+# handlers file for myweb
+- name: restart-httpd
+  service:
+    name: httpd
+    state: restarted
+    enabled: yes

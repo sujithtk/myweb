@@ -1,0 +1,5 @@
+---
+# tasks file for myweb
+- include: install.yml
+- include: firewall.yml
+- include: homepage.yml

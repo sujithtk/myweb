@@ -1,0 +1,6 @@
+---
+- name: Installing Apache package.
+  package:
+    name: httpd
+    state: present
+  notify: restart-httpd  

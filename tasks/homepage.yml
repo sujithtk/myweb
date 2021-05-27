@@ -1,0 +1,7 @@
+---
+- name: Setting up homepage.
+  template:
+    src: index.j2
+    dest: /var/www/html/index.html
+  notify: restart-httpd  
+
